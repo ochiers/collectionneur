@@ -1,5 +1,8 @@
 <div id="avatar">
-    <img src="images/person0.png"/>
+	<?php
+		$var = '<img src="images/person'.$_GET['id'].'.png"/>';
+		echo $var;
+    ?>
 </div>
 <div id="name">
     Jean Jacques
