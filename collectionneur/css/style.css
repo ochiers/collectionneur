@@ -17,3 +17,20 @@ h1 {
     font-size: 200%;
     color: red;
 }
+
+#avatar{
+	position:relavite;
+	left:10px;
+	top:10px;
+}
+
+#avatar img{
+	width: 200px;
+	height: 200px;
+}
+
+#name{
+	position:relative;
+	top: -150px;
+	left: 200px;
+}
