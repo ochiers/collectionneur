@@ -17,17 +17,17 @@ and open the template in the editor.
         </div>
         <div id="center">
             <div id="avatar">
-                <input type="image" src="images/person0.png">
+                
             </div>
             <div id="name">
-                <p>Jean Jacques</p>
+                
             </div>
             <div id="info">
-                <p>Virus</p>
+                
             </div>
         </div>
         <div id="footer">
-            Contact : <a href="mailto:sebastien.ochier@e.ujf-grenoble.fr">webmaster</a>
+            
         </div>
     </body>
 </html>
