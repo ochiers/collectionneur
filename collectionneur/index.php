@@ -16,7 +16,15 @@ and open the template in the editor.
             <h1>Le collectionneur.</h1>
         </div>
         <div id="center">
-            <?php include("pages/Person.php"); ?>
+            <?php 
+            if (!isset($_GET['pages'])){
+                include("pages/Person.php");
+            }
+            else {
+                include("pages/".$_GET['pages'].".php");
+            }
+
+             ?>
         </div>
         <div id="footer">
             
