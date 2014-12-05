@@ -6,9 +6,17 @@
 			$var = '<img src="images/person'.$_GET['id'].'.png"/>';
 		}
 
-		
 		echo $var;
+    
+
+	include("sql/connect.php");
+	$bdd = connexion_db();
+
+	//
+
     ?>
+
+
 </div>
 <div id="name">
     Jean Jacques
