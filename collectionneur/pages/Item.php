@@ -1,9 +1,9 @@
 <div id="avatar">
     <?php
 		if(!isset($_GET['id']) || !file_exists("images/person".$_GET['id'].".png")){
-			$var = '<img src="images/person0.png"/>';
+			$var = '<img src="images/item0.png"/>';
 		} else {
-			$var = '<img src="images/person'.$_GET['id'].'.png"/>';
+			$var = '<img src="images/item'.$_GET['id'].'.png"/>';
 		
 
 		

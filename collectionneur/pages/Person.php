@@ -35,7 +35,10 @@
 		echo '<tr>';
 
 			echo '<td>Item '.$i.'</td>';
-			echo '<td>'.'<img src="images/item'.$ligneItem['IdItem'].'.png"'.'</td>';
+			echo '<td>'.'<a href="index.php?pages=item&id='.$ligneItem['IdItem'].'">'.
+						'<img src="images/item'.$ligneItem['IdItem'].'.png"/>'.
+						'</a>'.
+						'</td>';
 
 		echo '</tr>';
 		$i = $i +1;
