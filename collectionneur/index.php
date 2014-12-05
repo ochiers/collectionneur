@@ -17,7 +17,7 @@ and open the template in the editor.
         </div>
         <div id="center">
             <?php 
-            if (!isset($_GET['pages'])){
+            if (!isset($_GET['pages']) || !file_exists("pages/".$_GET['pages'].".php")){
                 include("pages/Person.php");
             }
             else {
