@@ -16,15 +16,7 @@ and open the template in the editor.
             <h1>Le collectionneur.</h1>
         </div>
         <div id="center">
-            <div id="avatar">
-                <img src="images/person0.png"/>
-            </div>
-            <div id="name">
-                Jean Jacques
-            </div>
-            <div id="info">
-                Virus
-            </div>
+            <?php include("pages/Person.php"); ?>
         </div>
         <div id="footer">
             
