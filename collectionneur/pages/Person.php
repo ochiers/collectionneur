@@ -35,7 +35,7 @@
 		echo '<tr>';
 
 			echo '<td>Item '.$i.'</td>';
-			echo '<td>'.$ligneItem['IdItem'].'</td>';
+			echo '<td>'.'<img src="images/item'.$ligneItem['IdItem'].'.png"'.'</td>';
 
 		echo '</tr>';
 		$i = $i +1;
